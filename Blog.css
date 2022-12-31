@@ -1,0 +1,360 @@
+﻿:root {
+    --orange: #e67e22;
+    --black: #333;
+    --light-color: #777;
+    --border: .1rem solid rgba(0,0,0,.2);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+section {
+    padding: 10rem 10%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 7%;
+}
+
+    .header .logo {
+        color: var(--black);
+        font-size: 2.5rem;
+        margin-right: auto;
+    }
+
+        .header .logo span {
+            color: var(--orange);
+        }
+
+    .header .navbar a {
+        color: var(--light-color);
+        margin-right: 2rem;
+        font-size: 1.7rem;
+        text-transform: capitalize;
+    }
+
+        .header .navbar a:hover {
+            color: var(--orange);
+        }
+
+    .header .icons i {
+        height: 4.5rem;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        color: var(--black);
+        background: #eee;
+        border-radius: 50%;
+        margin-left: .7rem;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+
+        .header .icons i:hover {
+            color: #fff;
+            background: var(--orange);
+        }
+
+    .header .search-form {
+        position: absolute;
+        background: #fff;
+        border-radius: .5rem;
+        display: flex;
+        align-items: center;
+        box-shadow: var(--box-shadow);
+        top: 110%;
+        right: 7%;
+        height: 6rem;
+        width: 50rem;
+        padding: 1rem;
+        display: none;
+    }
+
+        .header .search-form.active {
+            display: flex;
+        }
+
+        .header .search-form #search-box {
+            width: 100%;
+            border: var(--border);
+            border-radius: .5rem;
+            padding: 1rem;
+            font-size: 1.7rem;
+            color: var(--black);
+            height: 100%;
+        }
+
+        .header .search-form label {
+            font-size: 2rem;
+            padding-left: 1rem;
+            padding-right: .5rem;
+            cursor: pointer;
+            color: var(--black);
+        }
+
+            .header .search-form label:hover {
+                color: var(--orange);
+            }
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #main-menu li {
+        position: relative;
+    }
+
+        #main-menu li a {
+            color: black;
+            display: block;
+            padding: 18px 20px;
+            text-decoration: none;
+        }
+
+    #main-menu ul.sub-menu {
+        position: absolute;
+        background-color: darkgray;
+        padding: 15px 0px;
+        list-style: none;
+        width: 200px;
+        border: 1px solid #808080;
+        display: none;
+    }
+
+    #main-menu li:hover > ul.sub-menu {
+        display: block;
+    }
+
+#menu-bars {
+    display: none;
+}
+
+.anhdn {
+    float: left;
+    clear: left;
+}
+
+#icon-Timkiem {
+    padding: 15px;
+    margin-top: 3px;
+}
+
+    #icon-Timkiem img {
+        margin-top: 5px;
+    }
+/*main*/
+.main {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 0.5px;
+}
+
+    .main #left {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-top: 30px;
+    }
+
+    .main #right {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        margin-top: 60px;
+    }
+
+#tieude {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'MV Boli';
+}
+
+#tentrang {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'MV Boli';
+}
+
+#noidung {
+    grid-column-start: 3;
+    grid-column-end: 8;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#bar {
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+
+#anhbar {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.picture {
+    width: 300px;
+    height: 400px;
+}
+
+#bar {
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+
+#duoibar {
+    margin-top: 50px;
+    display: grid;
+    /*grid-template-columns: repeat(3,1fr);*/
+    grid-column-gap: 0.5px;
+}
+
+#mot {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#hai {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#ba {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#bon {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#nam {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#sau {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+/* media queries  */
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .container {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media (max-width:768px) {
+
+    #menu-bars {
+        display: inline-block;
+    }
+
+    .header .search-form {
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: var(--border);
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: var(--border);
+        border-bottom: var(--border);
+        background: #fff;
+        display: none;
+    }
+
+        .header .navbar.active {
+            display: block;
+        }
+
+        .header .navbar a {
+            display: block;
+            background: #f7f7f7;
+            padding: 1.5rem;
+            margin: 1.5rem;
+            border-radius: .5rem;
+            border: var(--border);
+        }
+
+    .ainm {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .main .bar .image {
+        height: 30rem;
+    }
+}
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .inputBox input {
+        width: 100%;
+    }
+}

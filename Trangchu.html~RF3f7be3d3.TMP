@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Thể chất</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="Trangchu.css" />
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>ChatBot</span></a>
+
+        <nav class="navbar">
+            <ul id="main-menu">
+                <li><a href="https://localhost:44387/Trangchu.html">Trang chủ</a></li>
+                <li>
+                    <a href="#">Nền tảng</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">FaceBook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Website</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="https://localhost:44387/Blog.html">Blog</a></li>
+                <li><a href="https://localhost:44387/Gioithieu.html">Giới thiệu</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <section class="main">
+        <div style="margin-top:5px">
+            <p>Chủ đề > Học tập</p>
+        </div>
+        <div id="tieude">
+            <h1> Kế Hoạch học tập qua kỳ thi THPT</h1>
+        </div>
+        <div id="left">
+            <img class="picture" src="images/anh13.jpg" />
+        </div>
+        <div id="right">
+            <img class="picture" src="images/anh14.jpg" />
+        </div>
+        <div id="bar">
+            <img id="anhbar" src="images/anh16.jpg" />
+            <h2><b><i>Siêu ứng dụng Bán hàng</i></b></h2>
+            <p>
+                <i style="font-size:9px;">
+                    Hi. Mình là Lam & Trang. Chào mừng bạn đến với blog của mình. Đây là nơi mình thường xuyên chia sẻ về những câu chuyện nho nhỏ
+                    trong đời sống thường ngày của mình. Mình tin rằng,
+                    hạnh phúc đến từ những điều giản dị nhất.
+                    Hi vọng bạn sẽ tìm thấy được sự bình yên và một chút niềm vui khi đọc blog của mình.
+                    Đây là Blog về trang học tập cá nhân của mình, ở đây mình chia sẻ các bài viết giúp các bạn có thể
+                    tham khảo về quá trình sau khi học lên đại học, mong nó sẽ giúp bạn hơn <a href="https://localhost:44382/Gioithieu.html"><u><i>Xem thêm</i></u></a>
+                </i>
+            </p>
+
+        </div>
+
+        <div id="noidung">
+            <ol>
+                <li>
+                    <i>
+                        Sau một quá trình dài ôn tập thì cũng đã đến ngày thi trung học phổ thông quốc gia, tất cả quá trình đều dồn hết vào kỳ thi này
+                        đôi khi đặt ra rất nhiều chỉ tiêu cho bản thân nên thấy cũng áp lực lắm, nhưng cũng cố gắng rất nhiều để đạt được mục tiêu của bản
+                        thân, đôi lúc chỉ muốn bỏ cuộc vì áp lực nhưng nghĩ đến tương lai tươi sáng hơn thì cố gắng cho hiện tại thôi, và rồi kêt quả đã có
+                        cũng đã đỗ vào trường mình mong muốn, học chuyên ngành mà mình thích, thấy yêu cuộc sống này hơn, dù biết phía trước áp lực cũng không giảm đi,
+                        nhưng giờ không cho phép bản thân bị hạ gục và từ bỏ sớm.
+                    </i>
+                </li>
+                <li>
+                    <i>
+                        Sau khi lên đại học thì học cũng ít, nhưng đi tìm kiếm công việc làm thêm để kiếm chút thu nhập cho bản thân , phụ giúp gia đình được tí nào hay tí đấy,
+                        cũng kha khá vất vả, nhưng không còn quan tân nhiều như xưa nữa rồi
+                    </i>
+                </li>
+                <li>
+                    <i>
+                        Sau những giờ học và làm việc căng thẳng, tự bản thân mình đã tự đầu tư đi chơi một chuyến, vào tháng 6 này mình cùng các bạn của mình đi du lịch trên SaPa để thư giãn,
+                        Cảm giác nhịp sống sinh hoạt thường ngày cuối cùng đã quay trở lại.
+                    </i>
+                </li>
+            </ol>
+        </div>
+        <div id="bar">
+            <div id="duoibar">
+                <div class="anhnho">
+                    <img id="mot" src="images/anh13.jpg" style="width:100px ; height:100px" />
+                    <img id="hai" src="images/anh16.jpg" style="width:100px ; height:100px" />
+                    <img id="ba" src="images/anh15.jpg" style="width:100px ; height:100px" />
+                    <img id="bon" src="images/anh14.jpg" style="width:100px; height:100px" />
+                    <img id="nam" src="images/anh7.jpg" style="width:100px ; height:100px" />
+                    <img id="sau" src="images/anh13.jpg" style="width:100px ; height:100px" />
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

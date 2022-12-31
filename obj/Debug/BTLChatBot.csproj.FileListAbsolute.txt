@@ -1,0 +1,14 @@
+C:\Users\Laptop88\source\repos\BTLChatBot\bin\BTLChatBot.dll.config
+C:\Users\Laptop88\source\repos\BTLChatBot\bin\BTLChatBot.dll
+C:\Users\Laptop88\source\repos\BTLChatBot\bin\BTLChatBot.pdb
+C:\Users\Laptop88\source\repos\BTLChatBot\obj\Debug\BTLChatBot.csproj.CoreCompileInputs.cache
+C:\Users\Laptop88\source\repos\BTLChatBot\obj\Debug\BTLChatBot.dll
+C:\Users\Laptop88\source\repos\BTLChatBot\obj\Debug\BTLChatBot.pdb
+C:\Users\Laptop88\source\repos\BTLChatBot\obj\Debug\BTLChatBot.csproj.AssemblyReference.cache
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\bin\BTLChatBot.dll.config
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\bin\BTLChatBot.dll
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\bin\BTLChatBot.pdb
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\obj\Debug\BTLChatBot.csproj.AssemblyReference.cache
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\obj\Debug\BTLChatBot.csproj.CoreCompileInputs.cache
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\obj\Debug\BTLChatBot.dll
+C:\Users\Laptop88\Downloads\BTLChatBot(Github)-20221231T154156Z-001\BTLChatBot\obj\Debug\BTLChatBot.pdb
